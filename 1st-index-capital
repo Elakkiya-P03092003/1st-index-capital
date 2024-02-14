@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    char str[20];
+    scanf("%[^\n]s",str);
+    for(int i=0;i<str[i];i++){
+        if(i==0)
+        str[i] = str[i]-32;
+        else if(str[i]==32)
+            str[i+1]=str[i+1]-32;}
+        
+        printf("%s\n",str);
+    
+    
+    return 0;
+}
